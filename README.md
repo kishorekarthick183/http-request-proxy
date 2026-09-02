@@ -47,3 +47,4 @@ At a high level, the service needs to:
 - [ ] Add tests for the test file itself
 - [ ] Split into separate repositories
 - [ ] Add debug info and test coverage via shell scripts
+- [ ] Add constants via environment variables use dotenv
