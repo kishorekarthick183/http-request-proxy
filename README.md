@@ -35,6 +35,13 @@ At a high level, the service needs to:
 
 **Languages allowed:** NodeJS, Java, Python, GoLang, Ruby (any of the above, no other restrictions).
 
+## Setup
+
+```bash
+# Copy the example env file and fill in any values you need
+cp .env.example .env
+```
+
 ## Running & testing
 
 ```bash
@@ -42,9 +49,9 @@ At a high level, the service needs to:
 ./cmd.sh   # hits https://httpbin.org/get
 ```
 
-## TODOs
+## TODO
 
 - [ ] Add tests for the test file itself
 - [ ] Split into separate repositories
 - [ ] Add debug info and test coverage via shell scripts
-- [ ] Add constants via environment variables use dotenv
+- [ ] Add constants via environment variables, use dotenv
