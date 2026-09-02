@@ -1,0 +1,27 @@
+{
+  "name": "request-proxy-service",
+  "version": "2.0.0",
+  "description": "A Request Proxy Service (Express) that relays HTTPS requests to a specified URL and returns the upstream response.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
