@@ -54,4 +54,4 @@ cp .env.example .env
 - [ ] Add tests for the test file itself
 - [ ] Split into separate repositories
 - [ ] Add debug info and test coverage via shell scripts
-- [ ] Add constants via environment variables, use dotenv
+- [x] Add constants via environment variables, use dotenv
